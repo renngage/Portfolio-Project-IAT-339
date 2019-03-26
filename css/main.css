@@ -1,0 +1,18 @@
+body{
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.nav-link
+{
+    margin-right: 30px;
+    color: white !important;
+
+}
+.nav-link:hover
+{
+    color:orangered !important;
+}
+.active .nav-link
+{
+    color:orangered !important;
+}
