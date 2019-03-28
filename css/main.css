@@ -16,3 +16,134 @@ body{
 {
     color:orangered !important;
 }
+
+.site-content
+{
+    background-image: url("../img/polybg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.display-4, .lead
+{
+    color: orangered;
+
+}
+.display-4
+{
+    margin-top: 20%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+.lead
+{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.row
+{
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-1 .heading-1
+{
+    margin-top: 8%;
+}
+.section-1 .heading-2
+{
+    margin-bottom: 5%;
+}
+.section-1 .para-1
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.section-1 .para-1 .card-text
+{
+    color: rgba(0,0,0,.59);
+}
+.section-1
+{
+    margin-bottom: 8%;
+}
+.card
+{
+    width: 25rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-1 .card{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-1 .card{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .display-4 .lead
+    {
+        font-size: 30px;
+        padding-left: 15%;
+    }
+
+    .section-1 .heading-1 .section-1 .heading-2
+    {
+        font-size: 25px;
+    }
+    .section-1 .col-md-4
+    {
+        padding: 5%;
+        margin-left: 8%;
+    }
+    .section-1 .col-md-3
+    {
+        padding: 5%;
+        margin-left: 8%;
+    }
+    .section-1 .card
+    {
+        width: 15rem;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .display-4 .lead
+    {
+        font-size: 30px;
+        padding-left: 15%;
+    }
+
+    .section-1 .heading-1 .section-1 .heading-2
+    {
+        font-size: 25px;
+    }
+    .section-1 .col-md-4
+    {
+        padding: 5%;
+        margin-left: 8%;
+    }
+    .section-1 .col-md-3
+    {
+        padding: 5%;
+        margin-left: 8%;
+    }
+    .section-1 .card
+    {
+        width: 15rem;
+    }
+}
+
