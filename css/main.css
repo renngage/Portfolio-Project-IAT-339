@@ -17,12 +17,13 @@ body{
     color:orangered !important;
 }
 
-.site-content
-{
-    background-image: url("../img/polybg1.jpg");
+.site-content {
+    /*background-image: url("../img/polybg1.jpg");*/
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 .display-4, .lead
 {
