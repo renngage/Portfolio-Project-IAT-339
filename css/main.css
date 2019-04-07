@@ -26,22 +26,11 @@ body
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-
 }
 
 /*-----------------------------------------------------------*/
 
-.container {
-    position: absolute;
-    display: block;
-    border: solid 2px black;
-    border-radius: 10px;
-    background-color: white;
-    /*put backgound as rgba and reduce opacity later on*/
-    padding: 10px;
-    height: 100%;
-    left: 20px;
-}
+
 
 img {
     max-width: 100%;
