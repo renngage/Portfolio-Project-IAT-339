@@ -42,7 +42,7 @@ class Tri
 
   void drawChar()
   {
-    ellipse(pos.x,pos.y,16,16);
+    ellipse(pos.x,pos.y,8,8);
     fill(#FF4500);
 
   }

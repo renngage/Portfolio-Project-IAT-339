@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/ProjectPageStyle.css" rel="stylesheet">
     <title>Projects</title>
 </head>
 
@@ -39,24 +39,31 @@
     </nav>
 </header>
 
+
+
 <body>
 
-<div class="container">
-    <div class="left_column">
-
-        <a href="shooterGame.html">
-            <img src="img/shooter_game_image.jpg" alt="shooter game">
-        </a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="card-deck">
+            <div class="card">
+                <a href="facialDetection.html">
+                    <img class="card-img-top" src="img/facial_detection_project.png" alt="Facial detection">
+                    <div class="card-block">
+                        <h4 class="card-title">Facial Detection</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="shooterGame.html">
+                    <img class="card-img-top" src="img/shooter_game_image.jpg" alt="Shooter Game">
+                    <div class="card-block">
+                        <h4 class="card-title">Simple Shooter Game</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-
-    <div class="right_column">
-
-        <a href="facialDetection.html">
-        <img src="img/facial_detection_project.png" alt="facial detection project">
-        </a>
-    </div>
-    
-    
 </div>
 
 </body>

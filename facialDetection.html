@@ -4,18 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Bootstraps CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/ProjectsDetail.css" rel="stylesheet">
     <title>Facial Detection</title>
 </head>
 
 <header>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: #191d26">
-        <a class="navbar-brand" href="homePage.html"><img src="img/logo.png" alt="logo" style="max-width: 40px" > </a>
+        <a class="navbar-brand" href="homePage.html"><img src="img/logo.png" alt="logo" style="max-width: 40px"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
             <span class="navbar-toggler-icon">
             </span>
@@ -38,63 +41,87 @@
         </div>
     </nav>
 </header>
+
 <body>
 
-<div class="Title">
-    <h1>Facial Detection using Haar cascade algorithm.</h1>
-</div>
+<div class="Project2">
+    <p class="breadcrumbs">
+        <a href="projectPage.html"> projects </a> >>
+        <a href="facialDetection.html"> Facial Detection </a>
+    </p>
 
-<div class="Title-img">
-    <img src="img/sucessful%20detection.jpg" alt="successful detection">
-</div>
+    <h1>Facial Detection Using Haar Cascade Algorithm</h1>
+    <h3>programmer X Designer</h3>
 
-<div class="right_col1">
-    <div class="Brief">
-        <h2>Brief:</h2>
-            <p>The project focused on facial feature recognition
-                techniques and evaluating them in terms of accuracy
-                and effectiveness. The goal is to explore the
-                mechanics behind facial recognition.</p>
+    <figure class="img">
+        <img src="img/sucessful%20detection.jpg" alt="Successful Eye detection">
+        <figcaption>
+            Successful Eye Detection on High Contrast Image
+        </figcaption>
+    </figure>
+
+    <div class="overview">
+        <h2>Overview</h2>
+        <p>The project focused on facial feature recognition
+            techniques and evaluating them in terms of accuracy
+            and effectiveness. The goal is to explore the
+            mechanics behind facial recognition.</p>
+        <h2> Tools: Processing, OpenCV Library</h2>
+    </div>
+
+
+    <div class="Team_members">
+        <h2>Team members:</h2>
+        <ul>
+            <li>Praneet Atwal – Programmer, facial detection research and exploration.</li>
+            <li>Mahsa Alavi – Research and concept exploration.</li>
+        </ul>
+    </div>
+
+    <div class="row1">
+        <div class="Details">
+            <h2>Details:</h2>
+            <p>Generally, face recognitions are accurate these
+                days but when it comes to situations such as low
+                image resolution, low contrast image and pose
+                variations the system might fail to <br> recognize
+                face features. We looked at 3 different research
+                studies for facial recognition and features that
+                are more dominant in the face to allow for
+                accurate facial detection.
+            </p>
+        </div>
+    </div>
+
+    <figure class="img">
+        <img src="img/faled%20detection%201.jpg" alt="Failed Detection.">
+        <figcaption>
+            Failed Nose (blue sqaure) and Eye (Red Square) Detection
+        </figcaption>
+
+        <img src="img/parts%20code.jpg" alt="Cascade algorithm">
+        <figcaption>
+            Coding segments for detecting facial features
+        </figcaption>
+
+    </figure>
+
+    <div class="Process">
+        <h2>Process and Research</h2>
+        <p>We experimented with different images and recorded the
+            results based on the studies. Facial detection works
+            best when detecting eyes as one of the targets. It works
+            least with <br> detecting the nose. Additionally, having a
+            low-resolution image, angled face, skin color also
+            affects the accuracy at which an algorithm will work
+            to detect the face.</p>
     </div>
 </div>
 
-<div class="middle_row">
-    <h2>Team members:</h2>
-    <ul>
-        <li>Praneet Atwal – Programmer, facial detection research and exploration.</li>
-        <li>Mahsa Alavi – Research and concept exploration.</li>
-    </ul>
+<footer>
+    Design <span>X</span> Code || Praneet Atwal 2019 ||
 
-    <h2> Tools:</h2> <p> Processing, OpenCV Library </p>
-
-</div>
-
-
-<div class="row1">
-    <div class="Details">
-        <h2>Details:</h2>
-        <p>Generally, face recognitions are accurate these
-            days but when it comes to situations such as low
-            image resolution, low contrast image and pose
-            variations the system might fail to recognize
-            face features. We looked at 3 different research
-            studies for facial recognition and features that
-            are more dominant in the face to allow for
-            accurate facial detection.
-        </p>
-    </div>
-</div>
-
-<div class="Process">
-    <h2>Process and Research</h2>
-<p>We experimented with different images and recorded the
-    results based on the studies. Facial detection works
-    best when detecting eyes as one of the targets. It works
-    least with detecting the nose. Additionally, having a
-    low-resolution image, angled face, skin color also
-    affects the accuracy at which an algorithm will work
-    to detect the face.</p>
-</div>
+</footer>
 
 </body>
 </html>
