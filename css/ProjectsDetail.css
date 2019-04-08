@@ -42,16 +42,12 @@ body {
     width: 6px;
 }
 
-::-webkit-scrollbar-track {
-    background: rgb(245, 245, 245)
-}
-
 ::-webkit-scrollbar-thumb {
-    background: #EDD2E0
+    background: orangered;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #DDB3D1
+    background: orange;
 }
 
 h1 {
