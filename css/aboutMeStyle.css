@@ -1,0 +1,52 @@
+body{
+    background: #282828;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#about
+{
+    padding-top: 98px;
+    padding-bottom: 101px;
+}
+
+#about .about-img
+{
+    position: relative;
+}
+
+#about .about-img .man
+{
+    position: absolute;
+    bottom: 161px;
+    top: 12px;
+    left: -50px;
+}
+
+.color-3
+{
+    color: #d6c6b2;
+}
+.text-white
+{
+    color: white;
+}
+
+p{
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#about .social-link-text
+{
+
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+

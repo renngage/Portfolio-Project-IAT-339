@@ -43,15 +43,15 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: orangered;
+    background: #FC4445;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: orange;
+    background: #FC4445;
 }
 
 h1 {
-    color: orangered;
+    color: #FC4445;
     letter-spacing: 0.2rem;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-    color: orangered;
+    color: #FC4445;
     letter-spacing: 0.05rem;
     font-size: 1rem;
     margin: 1.5rem 0 .5rem 0
@@ -84,7 +84,7 @@ h3 {
 
 .breadcrumbs a:hover
 {
-    color: orangered;
+    color: #FC4445;
     font-weight: bold;
     text-decoration: none;
 }
@@ -109,16 +109,16 @@ ul li:before {
 .img > img {
     width: 100%;
     padding: .5rem;
-    border: 1px solid orangered;
-    -webkit-box-shadow: 0.2rem 0.2rem orangered;
-    box-shadow: 0.2rem 0.2rem orangered;
+    border: 1px solid #FC4445;
+    -webkit-box-shadow: 0.2rem 0.2rem #FC4445;
+    box-shadow: 0.2rem 0.2rem #FC4445;
 }
 
 figcaption {
     padding: 0.5rem;
     font-size: 0.65rem;
     font-style: italic;
-    color: orangered;
+    color: #FC4445;
 }
 
 .Project1, .Project2

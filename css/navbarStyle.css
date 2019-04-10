@@ -1,0 +1,16 @@
+nav
+{
+    align-items: center;
+    min-height: 8vh;
+    background: #FC4445;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 26px;
+    margin-inline-end: 30px;
+
+}
