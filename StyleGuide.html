@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>P02 - Style Guide Template </title>
+
+    <link href="css/styleGuideCSS.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <h1>P02 - Style Guide Template </h1>
+</header>
+
+<p>A template you can use to start building out your own style guides with.</p>
+
+<nav class="menu">
+    <a href="#interactive_elements">Interactive Elements</a>
+    <a href="#text_elements">Text Elements</a>
+    <a href="#combined_elements">Combined Elements</a>
+    <a href="#citations">Citations</a>
+</nav>
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+<section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+    <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class="intext_link" href="url"&gt; Text to link&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p>This is a <a class="in_text_link" href="">Link</a> which will take you nowhere.</p>
+
+    </section>
+
+
+    <!-- Default Button styling section -->
+    <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav with hover animation</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;ul id="menu"&gt;
+            &lt;li&gt; &lt;a href="#home" &gt; HOME&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;&lt;</code>
+
+        <h4>Rendered element:</h4>
+        <div class="landing-page">
+            <div class="page-content">
+                <div class="middle">
+                    <a href="AboutMe.html" class="btn btn1">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--   <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>Sample code:</h4>
+
+        <code>
+          &lt;form&gt; <br>
+          &lt;input type="reset" value="Reset"&gt; <br>
+          &lt;input type="submit" value="Submit"&gt; <br>
+          &lt;/form&gt; <br>
+
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <form>
+          <label for="reset_button"> </label>
+          <input type="reset" value="Reset" id="reset_button">
+          <label for="submit_button"></label>
+          <input type="submit" value="Submit" id="submit_button">
+        </form>
+
+
+      </section> -->
+
+
+    <!--  I feel this makes more sense semantically..... -->
+
+    <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <!-- https://www.w3schools.com/tags/att_button_type.asp -->
+
+        <h4>Sample code:</h4>
+        <code>&lt;button class="subResBtn" type="submit" value="Submit"&gt;Submit&lt;/button&gt;
+            &lt;button class="subResBtn" type="reset" value="Reset"&gt;Reset&lt;/button&gt; </code>
+        <h4> Rendered Element </h4>
+
+        <button class="subResBtn" type="submit" value="Submit">Submit</button>
+        <button class="subResBtn" type="reset" value="Reset">Reset</button>
+
+
+    </section>
+
+
+    <section class="element">
+        <h3>Image as a Link</h3>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class="image_link" href="url"&gt; &lt;img alt = "something" src = "image.jpeg" width = "100" height
+            = "100"&gt; &lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#"><img src="img/logo.png" class="image_link" alt="something"></a>
+
+    </section>
+
+
+</section>
+<!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+<!-- TEXT ELEMENTS SECTION // -->
+<section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+        <h3>Headings</h3>
+
+        <h4>Sample code:</h4>
+        <code>
+            &lt;h1&gt; Heading 1 &lt;/h1&gt;
+            <br>&lt;h2&gt; Heading 2 &lt;/h2&gt;
+            <br>&lt;h3&gt; Heading 3 &lt;/h3&gt;
+            <br>&lt;h4&gt; Heading 4 &lt;/h4&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1> Heading 1</h1>
+        <h2> Heading 2 </h2>
+        <h3> Heading 3 </h3>
+        <h4> Heading 4 </h4>
+
+    </section>
+
+    <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt; This is a paragraph and it can be written withinn these paragraph tags. &lt;/p&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <p>This is a paragraph and it can be written withinn these paragraph tags.</p>
+
+    </section>
+
+    <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>Sample code:</h4>
+        <code> &lt;ol&gt;<br>
+            &lt;li&gt; item 1 &lt;/li&gt;<br>
+            &lt;li&gt; item 2 &lt;/li&gt;<br>
+            &lt;li&gt; item 3 &lt;/li&gt;<br>
+            &lt;li&gt; item 4 &lt;/li&gt;<br>
+            &lt;/ol&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <ol>
+            <li> item 1</li>
+            <li> item 2</li>
+            <li> item 3</li>
+            <li> item 4</li>
+        </ol>
+
+
+    </section>
+
+</section>
+<!-- // TEXT ELEMENTS SECTION -->
+
+
+<!-- COMBINED ELEMENTS SECTION // -->
+<section id="combined_elements">
+    <h2>Combined Elements</h2>
+
+
+    <section class="element">
+        <h3>Main Navigation</h3>
+
+
+        <h4>Sample code:</h4>
+        <code>
+            &lt;li&gt; &lt;a href="#home">HOME&lt;/a&gt; &lt;/li&gt;<br>
+            &lt;li&gt; &lt;a href="#Products">PRODUCTS&lt;/a&gt; &lt;/li&gt;<br>
+            &lt;li&gt; &lt;a href="#About">ABOUT&lt;/a&gt; &lt;/li&gt;<br>
+            &lt;li&gt; &lt;a href="#Contact">CONTACT&lt;/a&gt; &lt;/li&gt;<br>
+            &lt;li&gt; &lt;a href="#Buy">BUY&lt;/a&gt; &lt;/li&gt;<br>
+        </code>
+
+        <h4>Rendered element:</h4>
+        <ul id="menu">
+            <li><a href="#"> HOME</a></li>
+            <li><a href="#"> WORK</a></li>
+            <li><a href="#"> ABOUT</a></li>
+
+        </ul>
+
+    </section>
+
+    <section class="Sitelink">
+        <h1><a href="homePage.html"> Link to Portfolio</a></h1>
+    </section>
+
+
+    <section id="citations">
+        <h2>Citations</h2>
+
+        <ul>
+            <li>Techie, C. (2018, January 16). Responsive Navbar with Bootstrap 4. Retrieved from <a href="https://www.youtube.com/watch?v=L0uNai3XyKQ">https://www.youtube.com/watch?v=L0uNai3XyKQ</a></li>
+            <li>Media, T. (2017, August 06). Create Particle Effects With Particles.js. Retrieved from <a href="https://www.youtube.com/watch?v=qK3cgD09Qf0">https://www.youtube.com/watch?v=qK3cgD09Qf0</a></li>
+            <li>Daniela valdes. Project Page inspiration and boredr layout (n.d.). Retrieved from <a href="http://danivlds.com/">http://danivlds.com/</a></li>
+            <li>DarkCode. (2019, February 09). Awesome Hover Effect on Buttons Using HTML & CSS. Retrieved from <a href="https://www.youtube.com/watch?v=Nmaw6pBEsI8&t=141s">https://www.youtube.com/watch?v=Nmaw6pBEsI8&t=141s</a></li>
+            <li>Ustaad, O. W. (2018, July 15). Build An HTML 5 Website with A Responsive Layout - About Me section. Retrieved from <a href="https://www.youtube.com/watch?v=DXSQ2cEVbAI&t=336s">https://www.youtube.com/watch?v=DXSQ2cEVbAI&t=336s</a></li>
+
+        </ul>
+    </section>
+</section>
+</body>
+</html>
